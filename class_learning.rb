@@ -5,6 +5,10 @@ class Vehicle
   #global variable needs to add $
   @test1
 
+  def initialize(a)
+    @test1 = a
+  end
+
   def funtest
     @test1 = 2
     puts @test1
