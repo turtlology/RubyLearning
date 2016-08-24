@@ -14,7 +14,19 @@ class Vehicle
     puts @test1
   end
 
+  def getTest1
+    @test1
+  end
+
+  #setter needs to add "=" after the name of the method
+  def setTest1=(value)
+    @test1 = value
+  end
+
 end
 
-v1 = Vehicle.new
-v1.funtest
+v1 = Vehicle.new(3)
+var = v1.funtest
+puts var
+v1.setTest1=5
+puts v1.getTest1

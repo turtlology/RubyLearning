@@ -47,3 +47,6 @@ end
 if ( line1 =~ /\s{0,10}/ )
   puts "Line1 space is 0-10"
 end
+
+role = /slc$/.match("slcwhat")[1];
+puts role
